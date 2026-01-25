@@ -45,7 +45,7 @@ env:
 
   # 🖊️ EDIT to change the image registry settings.
   # Registries such as GHCR, Quay.io, and Docker Hub are supported.
-  IMAGE_REGISTRY: https://quay-registry-quay-quay.apps.cluster-56747.56747.sandbox3409.opentlc.com/apps
+  IMAGE_REGISTRY: quay-registry-quay-quay.apps.cluster-56747.56747.sandbox3409.opentlc.com/apps
   IMAGE_REGISTRY_USER: ${{ secrets.REGISTRY_USER }}
   IMAGE_REGISTRY_PASSWORD: ${{ secrets.REGISTRY_PASSWORD }}
 
