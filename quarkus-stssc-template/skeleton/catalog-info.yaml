@@ -23,6 +23,9 @@ metadata:
     - url: https://devspaces${{values.cluster}}/#https://${{values.host}}/${{values.destination}}?che-editor=che-incubator/che-idea/latest
       title: OpenShift Dev Spaces (JetBrains IntelliJ)
       icon: web
+    - url: https://console-openshift-console${{values.cluster}}/monitoring/dashboards/dashboard-k8s-resources-workloads-namespace?timeRange=1800000&period=5m&apiserver=kube-apiserver&type=ALL_OPTION_KEY&namespace=${{values.component_id | dump}}-dev
+      title: Compute resources dashboard
+      icon: web
 spec:
   type: service
   lifecycle: production
