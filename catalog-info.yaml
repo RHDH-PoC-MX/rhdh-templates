@@ -7,3 +7,4 @@ spec:
   type: url
   targets:
      - https://github.com/RHDH-PoC-MX/rhdh-templates/blob/main/quarkus-stssc-template/template.yaml
+     - https://github.com/RHDH-PoC-MX/rhdh-templates/blob/main/api-templates/top-down-template.yaml
