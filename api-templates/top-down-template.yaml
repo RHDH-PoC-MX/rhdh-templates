@@ -15,7 +15,7 @@ spec:
   parameters:
     - title: API Contract location
       properties:
-        component_id:
+        openapi_contract_url:
           title: OpenAPI Contract URL (JSON or YAML)
           type: string
           description: URL to the location of for this server's API OpenAPI contract. The contract may be in JSON or YAML formats
